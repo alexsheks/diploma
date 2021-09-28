@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Search Engine",
+  headline: "Fast Search with extreme accuracy",
+  description:
+    "Get access to our exclusive app that allows you to search for a book quickly and with high accuracy",
+  buttonLabel: "Get Started",
+  imgStart: false,
+  img: "/images/svg-1.svg",
+  alt: "Search",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+
+export const homeObjTwo = {
+  id: "services",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Our special offer for you",
+  headline: "Be ready. This service is gonna make it happen",
+  description: "A lot of staff is for you already accessible to download ",
+  buttonLabel: "Learn More",
+  imgStart: false,
+  img: "/images/svg-2.svg",
+  alt: "Services",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+
+export const homeObjThree = {
+  id: "signup",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Sign Up and Make it work",
+  headline: "Easy to sign up - Easy to access",
+  description: "Get special discount for you first payment ",
+  buttonLabel: "Sign Up",
+  imgStart: false,
+  img: "/images/svg-3.svg",
+  alt: "SignUp",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
